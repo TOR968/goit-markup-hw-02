@@ -1,0 +1,44 @@
+/* основний текст #757575 */
+/* другоряний колір #212121 */
+/* білий #FFFFFF */
+/* наведення #2196F3 */
+
+:root{  --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+  }
+
+.adres-nav a {
+    color: var(--primary-text-color);
+}
+
+nav a {
+    color: var(--title-text-color);
+}
+
+nav .list :hover,
+nav .list :focus {
+    color: var(--accent-color);
+}
+
+nav span {
+    color: var(--accent-color);
+}
+
+h1 {
+    color: var(--primary-white-color);
+}
+
+.button{
+    color: var(--primary-white-color);
+}
+
