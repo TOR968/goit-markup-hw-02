@@ -2,43 +2,106 @@
 /* другоряний колір #212121 */
 /* білий #FFFFFF */
 /* наведення #2196F3 */
+/* footer  rgba(255, 255, 255, 0.6)*/
 
-:root{  --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
-    --primary-white-color: #FFFFFF;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --adres-text-color: rgba(255, 255, 255, 0.6);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    list-style: none;
-  }
+  list-style: none;
+}
 
 .adres-nav a {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 nav a {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 nav .list :hover,
 nav .list :focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 nav span {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 h1 {
-    color: var(--primary-white-color);
+  color: var(--primary-white-color);
 }
 
-.button{
-    color: var(--primary-white-color);
+.button {
+  color: var(--primary-white-color);
 }
 
+.function h3 {
+  color: var(--title-text-color);
+}
+
+.function p {
+  color: var(--primary-text-color);
+}
+
+.propose h2 {
+  color: var(--title-text-color);
+}
+.propose h3 {
+  color: var(--primary-white-color);
+}
+
+.team h2 {
+  color: var(--title-text-color);
+}
+.team h3 {
+  color: var(--title-text-color);
+}
+.team p {
+  color: var(--primary-text-color);
+}
+
+.company {
+  color: var(--title-text-color);
+}
+
+footer a {
+  color: var(--primary-white-color);
+}
+footer {
+  color: var(--primary-white-color);
+}
+
+address a {
+  color: var(--adres-text-color);
+}
+
+footer p {
+  color: var(--adres-text-color);
+}
+footer span {
+  color: var(--accent-color);
+}
+/* css portfolio */
+.menu {
+  color: var(--title-text-color);
+}
+.menu li:hover,
+.menu li:focus {
+  color: var(--primary-white-color);
+}
+.project h3 {
+  color: var(--title-text-color);
+}
+.project p {
+  color: var(--primary-text-color);
+}

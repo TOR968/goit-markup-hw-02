@@ -4,22 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
     <header>
       <nav>
-        <a href="./index.html">
-          Web Studio
-        </a>
+        <a href="./index.html"> <span>Web</span> Studio </a>
 
-        <ul>
+        <ul class="site-nav list">
           <li><a href="./index.html">Студия</a></li>
           <li><a href="./portfolio.html">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
 
-        <ul>
+        <ul class="adres-nav list">
           <li>
             <a href="mailto:info@devstudio.com">
               <img src="./images/envelope(hover).svg" alt="Почта" />
@@ -36,88 +35,133 @@
       </nav>
     </header>
     <main>
-        <!-- Меню -->
-        <section>
-            <ul>
-                <li>Все</li>
-                <li>Веб-сайты</li>
-                <li>Приложения</li>
-                <li>Дизайн</li>
-                <li>Маркетинг</li>
-            </ul>
-        </section>
-        <!-- Проекти -->
-        <section>
-            <ul>
-                <li>
-                    <a href="">
-                        <img src="./images/portfolio-img/techtocrack.jpg" alt="Ноутбк с веб страницей" width="380" height="294">
-                    </a>
-                    <h3>Технокряк</h3>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="./images/portfolio-img/bask.jpg" alt="Баскетболисты" width="380" height="294">
-                    </a>
-                    <h3>Постер New Orlean vs Golden Stars</h3>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="./images/portfolio-img/restoran.jpg" alt="Логотип ресторана сиафуд" width="380" height="294">
-                    </a>
-                    <h3>Ресторан Seafood</h3>
-                    <p>Приложение</p>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="./images/portfolio-img/headphones.jpg" alt="Наушники" width="380" height="294">
-                    </a>
-                    <h3>Проект Prime</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="./images/portfolio-img/boxes.jpg" alt="Коробки" width="380" height="294">
-                    </a>
-                    <h3>Проект Boxes</h3>
-                    <p>Приложение</p>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="./images/portfolio-img/inspiration.jpg" alt="Монитор с сайтом" width="380" height="294">
-                    </a>
-                    <h3>Inspiration has no Borders</h3>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="./images/portfolio-img/limited.jpg" alt="Журнал" width="380" height="294">
-                    </a>
-                    <h3>Издание Limited Edition</h3>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="./images/portfolio-img/lab.jpg" alt="Бирка" width="380" height="294">
-                    </a>
-                    <h3>Проект LAB</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="./images/portfolio-img/growing.jpg" alt="Ноутбк" width="380" height="294">
-                    </a>
-                    <h3>Growing Business</h3>
-                    <p>Приложение</p>
-                </li>
-            </ul>
-        </section>
+      <!-- Меню -->
+      <section class="menu">
+        <ul class="menu list">
+          <li>Все</li>
+          <li>Веб-сайты</li>
+          <li>Приложения</li>
+          <li>Дизайн</li>
+          <li>Маркетинг</li>
+        </ul>
+      </section>
+      <!-- Проекти -->
+      <section class="project">
+        <ul class="project list">
+          <li>
+            <a href="">
+              <img
+                src="./images/portfolio-img/techtocrack.jpg"
+                alt="Ноутбк с веб страницей"
+                width="380"
+                height="294"
+              />
+            </a>
+            <h3>Технокряк</h3>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./images/portfolio-img/bask.jpg"
+                alt="Баскетболисты"
+                width="380"
+                height="294"
+              />
+            </a>
+            <h3>Постер New Orlean vs Golden Stars</h3>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./images/portfolio-img/restoran.jpg"
+                alt="Логотип ресторана сиафуд"
+                width="380"
+                height="294"
+              />
+            </a>
+            <h3>Ресторан Seafood</h3>
+            <p>Приложение</p>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./images/portfolio-img/headphones.jpg"
+                alt="Наушники"
+                width="380"
+                height="294"
+              />
+            </a>
+            <h3>Проект Prime</h3>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./images/portfolio-img/boxes.jpg"
+                alt="Коробки"
+                width="380"
+                height="294"
+              />
+            </a>
+            <h3>Проект Boxes</h3>
+            <p>Приложение</p>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./images/portfolio-img/inspiration.jpg"
+                alt="Монитор с сайтом"
+                width="380"
+                height="294"
+              />
+            </a>
+            <h3>Inspiration has no Borders</h3>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./images/portfolio-img/limited.jpg"
+                alt="Журнал"
+                width="380"
+                height="294"
+              />
+            </a>
+            <h3>Издание Limited Edition</h3>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./images/portfolio-img/lab.jpg"
+                alt="Бирка"
+                width="380"
+                height="294"
+              />
+            </a>
+            <h3>Проект LAB</h3>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./images/portfolio-img/growing.jpg"
+                alt="Ноутбк"
+                width="380"
+                height="294"
+              />
+            </a>
+            <h3>Growing Business</h3>
+            <p>Приложение</p>
+          </li>
+        </ul>
+      </section>
     </main>
     <!-- Футер -->
     <footer>
-<!-- Адрес -->
+      <!-- Адрес -->
       <div>
         <a href="./index.html">
           Web Studio
@@ -125,48 +169,47 @@
         <address>
           г. Киев, пр-т Леси Украинки, 26
         </address>
-        
+
         <address>
           <a href="mailto:info@example.com">info@example.com</a>
           <a href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
       </div>
-<!-- Присоединяйтесь -->
+      <!-- Присоединяйтесь -->
       <div>
-              <b>присоединяйтесь</b>
-              
-              <ul>
-                <li>
-                  <a href="">
-                    <img src="./images/instagram2.svg" alt="Инстаграм" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./images/twitter2.svg" alt="Твитер" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./images/facebook2.svg" alt="Фейсбук" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./images/linkedin2.svg" alt="Линкедин" />
-                  </a>
-                </li>
-              </ul>
+        <b>присоединяйтесь</b>
 
+        <ul>
+          <li>
+            <a href="">
+              <img src="./images/instagram2.svg" alt="Инстаграм" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./images/twitter2.svg" alt="Твитер" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./images/facebook2.svg" alt="Фейсбук" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./images/linkedin2.svg" alt="Линкедин" />
+            </a>
+          </li>
+        </ul>
       </div>
-<!-- Подписаться -->
-<div>
+      <!-- Подписаться -->
+      <div>
         <b>Подпишитесь на рассылку</b>
         <!-- <input type="text" name="user_name" />
               <button>
                 Подписаться
               </button> -->
-</div>
+      </div>
       <p>2020 | Developed by GoIT Students</p>
     </footer>
   </body>
