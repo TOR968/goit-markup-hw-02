@@ -129,7 +129,7 @@ footer span {
   color: var(--accent-color);
 }
 
-}
+
 .join a:hover,
 .join a:focus {
   background-color: var(--accent-color);
@@ -139,12 +139,12 @@ footer span {
 .menu {
   color: var(--title-text-color);
 }
-.menu li {
+.menu button {
   background-color: var(--second-background);
   border-radius: 4px;
 }
-.menu li:hover,
-.menu li:focus {
+.menu button:hover,
+.menu button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
