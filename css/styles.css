@@ -46,9 +46,10 @@ nav span {
   color: var(--accent-color);
 }
 
-/* .hero{
-    background-image: url(./images/header.ipg);
-} */
+.hero{
+   background-image: url(../images/header.jpg);
+    /* background-color: rgba(47, 48, 58, 0.8); */
+}
 h1 {
   color: var(--primary-white-color);
 }
@@ -133,6 +134,7 @@ footer span {
 }
 .menu li{
     background-color: var(--second-background);
+    border-radius: 4px;
 }
 .menu li:hover,
 .menu li:focus {
