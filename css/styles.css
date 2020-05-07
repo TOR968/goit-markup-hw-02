@@ -2,14 +2,20 @@
 /* другоряний колір #212121 */
 /* білий #FFFFFF */
 /* наведення #2196F3 */
-/* footer  rgba(255, 255, 255, 0.6)*/
+/* адреса  rgba(255, 255, 255, 0.6)*/
+/* фон  #E5E5E5*/
+/* фон 2 #f5f4fa */
+/* фон подвал #2f303a */
 
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
   --adres-text-color: rgba(255, 255, 255, 0.6);
+  --background: #E5E5E5
+  --second-background: #f5f4fa;
+  --footer-background: #2f303a;
 }
 
 a {
@@ -20,6 +26,9 @@ a {
   list-style: none;
 }
 
+header{
+    background-color: var(--primary-white-color);
+}
 .adres-nav a {
   color: var(--primary-text-color);
 }
@@ -37,14 +46,25 @@ nav span {
   color: var(--accent-color);
 }
 
+/* .hero{
+    background-image: url(./images/header.ipg);
+} */
 h1 {
   color: var(--primary-white-color);
 }
 
 .button {
   color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
+.function a {
+  background-color: var(--primary-text-color);
+}
+.function a:hover,
+.function a:focus {
+  background-color: var(--accent-color);
+}
 .function h3 {
   color: var(--title-text-color);
 }
@@ -58,8 +78,11 @@ h1 {
 }
 .propose h3 {
   color: var(--primary-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
 }
-
+.team {
+  background-color: var(--second-background);
+}
 .team h2 {
   color: var(--title-text-color);
 }
@@ -69,16 +92,24 @@ h1 {
 .team p {
   color: var(--primary-text-color);
 }
+.team a:hover,
+.team a:focus {
+  background-color: var(--accent-color);
+}
 
 .company {
   color: var(--title-text-color);
 }
-
+.company a:hover,
+.company a:focus {
+  background-color: var(--accent-color);
+}
 footer a {
   color: var(--primary-white-color);
 }
 footer {
   color: var(--primary-white-color);
+  background-color: var(--footer-background);
 }
 
 address a {
@@ -91,17 +122,37 @@ footer p {
 footer span {
   color: var(--accent-color);
 }
+
+.join a:hover,
+.join a:focus  {
+    background-color: var(--accent-color);
+}
 /* css portfolio */
 .menu {
   color: var(--title-text-color);
 }
+.menu li{
+    background-color: var(--second-background);
+}
 .menu li:hover,
 .menu li:focus {
   color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.project a:hover,
+.project a:focus{
+    background-color: var(--accent-color)
 }
 .project h3 {
   color: var(--title-text-color);
 }
 .project p {
   color: var(--primary-text-color);
+}
+
+/* background-color */
+
+body {
+  background-color: var(--background);
 }
