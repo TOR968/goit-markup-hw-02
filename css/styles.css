@@ -13,7 +13,7 @@
   --primary-white-color: #ffffff;
   --accent-color: #2196f3;
   --adres-text-color: rgba(255, 255, 255, 0.6);
-  --background: #E5E5E5
+  --background: #e5e5e5;
   --second-background: #f5f4fa;
   --footer-background: #2f303a;
 }
@@ -26,13 +26,17 @@ a {
   list-style: none;
 }
 
-header{
-    background-color: var(--primary-white-color);
+header {
+  background-color: var(--primary-white-color);
 }
 .adres-nav a {
   color: var(--primary-text-color);
 }
 
+.adres-nav img:hover,
+.adres-nav img:focus {
+  background-color: var(--accent-color);
+}
 nav a {
   color: var(--title-text-color);
 }
@@ -46,9 +50,9 @@ nav span {
   color: var(--accent-color);
 }
 
-.hero{
-   background-image: url(../images/header.jpg);
-    /* background-color: rgba(47, 48, 58, 0.8); */
+.hero {
+  background-image: url(../images/header.jpg);
+  /* background-color: rgba(47, 48, 58, 0.8); */
 }
 h1 {
   color: var(--primary-white-color);
@@ -65,6 +69,7 @@ h1 {
 .function a:hover,
 .function a:focus {
   background-color: var(--accent-color);
+  border-radius: 4px;
 }
 .function h3 {
   color: var(--title-text-color);
@@ -124,17 +129,19 @@ footer span {
   color: var(--accent-color);
 }
 
-.join a:hover,
-.join a:focus  {
-    background-color: var(--accent-color);
 }
+.join a:hover,
+.join a:focus {
+  background-color: var(--accent-color);
+}
+
 /* css portfolio */
 .menu {
   color: var(--title-text-color);
 }
-.menu li{
-    background-color: var(--second-background);
-    border-radius: 4px;
+.menu li {
+  background-color: var(--second-background);
+  border-radius: 4px;
 }
 .menu li:hover,
 .menu li:focus {
@@ -143,8 +150,8 @@ footer span {
 }
 
 .project a:hover,
-.project a:focus{
-    background-color: var(--accent-color)
+.project a:focus {
+  background-color: var(--accent-color);
 }
 .project h3 {
   color: var(--title-text-color);
