@@ -60,7 +60,7 @@ h1 {
 }
 
 .function a {
-  background-color: var(--primary-text-color);
+  background-color: var(--second-background);
 }
 .function a:hover,
 .function a:focus {
