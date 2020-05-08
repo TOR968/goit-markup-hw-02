@@ -37,6 +37,10 @@ a {
   list-style: none;
 }
 /*  */
+.current {
+  color: var(--accent-color);
+}
+/*  */
 header {
   background-color: var(--primary-white-color);
   font-weight: 500;
