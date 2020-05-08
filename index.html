@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
     <header>
       <nav>
-        <a href="./index.html"> <span>Web</span> Studio </a>
+        <a class="title-nav" href="./index.html"> <span>Web</span> Studio </a>
 
         <ul class="site-nav list">
           <li><a href="./index.html">Студия</a></li>
@@ -310,7 +314,10 @@
     <footer>
       <!-- Адрес -->
       <div>
-        <a href="./index.html"> <span>Web</span> Studio </a>
+        <a class="title-footer" href="./index.html">
+          <span>Web</span> Studio
+        </a>
+        <!--текст цсс???  -->
         <address>
           г. Киев, пр-т Леси Украинки, 26
         </address>
@@ -322,7 +329,7 @@
       </div>
       <!-- Присоединяйтесь -->
       <div>
-        <b>присоединяйтесь</b>
+        <b>Присоединяйтесь</b>
 
         <ul class="join list">
           <li>
@@ -351,9 +358,13 @@
       <div>
         <b>Подпишитесь на рассылку</b>
         <!-- <input type="text" name="user_name" /> -->
-              <button class="button" type="button">
-                Подписаться
-              </button>
+        <button class="button" type="button">
+          Подписаться
+          <img
+            src="./images/portfolio-img/iconsend.svg"
+            alt="бумажный самолетик"
+          />
+        </button>
       </div>
       <p>2020 | Developed by GoIT Students</p>
     </footer>
